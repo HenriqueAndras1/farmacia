@@ -19,7 +19,7 @@ function Navbar() {
             </Link>
 
             {/* Link para cadastrar as categorias    */}
-            <Link to="/cadastrarcategorias" className="hover:opacity-75">
+            <Link to="/cadastrarcategoria" className="hover:opacity-75">
               Cadastrar Categorias
             </Link>
           </div>
