@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import "./App.css";
 import ListaCategorias from "./components/categoria/listacategorias/ListaCategorias";
 import FormCategoria from "./components/categoria/formcategoria/FormCategorias";
+import DeletarCategoria from "./components/categoria/deletarcategoria/DeletarCategoria";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/categorias" element={<ListaCategorias />} />
             <Route path="/cadastrarcategoria" element={<FormCategoria />} />
             <Route path="/editarcategoria/:id" element={<FormCategoria />} />
+            <Route path="/deletarcategoria/:id" element={<DeletarCategoria />} />
           </Routes>
         </div>
         <Footer />
